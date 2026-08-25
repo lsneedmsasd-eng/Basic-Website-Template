@@ -3,5 +3,5 @@ body {
   background-color: #df5b5b;
   font-family: Georgia, serif;
 }
-.subtitle { color: rgb(25, 0, 255); }
-#page-title { font-size: 48px; color: navy; }
+.subtitle { color: rgb(0, 255, 42); }
+#page-title { font-size: 48px; color: rgb(13, 232, 16); }
