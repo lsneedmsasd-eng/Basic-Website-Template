@@ -1,8 +1,13 @@
 body {
- margin-bottom: 400px;
+  margin-bottom: 400px;
   color: #5b0c00;
   background-color: #df5b5b;
   font-family: Georgia, serif;
+}
+.favorites {
+  margin-top: auto;
+  padding: auto;
+  border: #5b0c00 solid 5px;
 }
 .subtitle { color: rgb(0, 255, 42); }
 #page-title { font-size: 48px; color: rgb(13, 232, 16); }
