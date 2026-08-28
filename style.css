@@ -1,3 +1,5 @@
+#page-title { font-size: 48px; color: rgb(187, 110, 97); }
+.subtitle { color: rgb(255, 94, 0); }
 body {
   margin-bottom: 400px;
   color: #5b0c00;
@@ -9,5 +11,3 @@ body {
   padding: auto;
   border: #5b0c00 solid 5px;
 }
-.subtitle { color: rgb(0, 255, 42); }
-#page-title { font-size: 48px; color: rgb(13, 232, 16); }
