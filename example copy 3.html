@@ -13,11 +13,15 @@
     var ctx = canvas.getContext("2d");
     var CELL = 20;
     var snake = { x: 5, y: 5 };
-    ctx.fillStyle = "black";
-    ctx.fillRect(0, 0, 400, 400);
+    function drawBoard() {
+  ctx.fillStyle = "#1b1b1b";
+  ctx.fillRect(0, 0, 400, 400);
  
-    ctx.fillStyle = "lime";
-    ctx.fillRect(snake.x * CELL, snake.y * CELL, CELL, CELL);
+  ctx.fillStyle = "#3ddc84";
+  ctx.fillRect(snake.x, snake.y, 20, 20);
+}
+    
+drawBoard();
   </script>
 </body>
 </html>
