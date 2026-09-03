@@ -21,7 +21,21 @@
   ctx.fillRect(snake.x, snake.y, 20, 20);
 }
     
-drawBoard();
+
+function step() {
+  snake.x = snake.x + 20;
+  drawBoard();
+}
+    function step() {
+  snake.x = snake.x + 20;
+ 
+  if (snake.x > 380) {
+    snake.x = 0;
+  }
+ 
+  drawBoard();
+}
+  setInterval(step, 100);
   </script>
 </body>
 </html>
