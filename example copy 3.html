@@ -16,8 +16,14 @@
     var dx = 20; // how far snake.x changes each step
     var dy = 0;  // how far snake.y changes each step 
 function step() {
-  snake.x = snake.x + dx;
+snake.x = snake.x + dx;
   snake.y = snake.y + dy;
+ 
+  if (snake.x > 380) { snake.x = 0; }
+  if (snake.x < 0) { snake.x = 380; }
+  if (snake.y > 380) { snake.y = 0; }
+  if (snake.y < 0) { snake.y = 380; }
+ 
   drawBoard();
 }
     function drawBoard() {
